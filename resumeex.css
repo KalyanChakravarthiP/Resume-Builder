@@ -124,7 +124,7 @@ div{
 .childDiv{
   box-shadow: 0 4px 8px 	lightyellow;
   border: 1px solid #FFD700;
-	background-color: #CAF3F4;
+	background-color: #33FFBA;
 }
 .childDiv : hover {
     box-shadow: 0 8px 16px 	lightyellow;
