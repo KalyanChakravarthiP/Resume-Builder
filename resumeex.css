@@ -1,0 +1,201 @@
+* {
+font-family: 'verdana';
+}
+.name,.name1
+{
+	text-align:center;
+  padding-top:20px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+  .sidemenu
+ {
+	 list-style-type:none;
+	 display:block;
+	 font-size:18px;
+	 padding-top:20px;
+	 padding-right:15px;
+ }
+ .label-keyword
+ {
+ display: inline-block;
+background: #7eb0db;
+color: white;
+font-size: 0.9em;
+padding: 5px;
+border: 1px solid #357ebd;
+margin-right: 5px;
+ }
+.headers
+{
+	 font-size:14px;
+	 font-weight:bold;
+	 color:#000;
+	 margin-right:20px;
+}
+.headers  span
+{
+	 margin-right:10px;
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFF;
+
+}
+
+.left{
+	width:35%;
+	border-radius: 10px;
+	background-color: #C2DFFF;
+   text-align: center;
+}
+.right {
+	width: 62%;
+	background-color: #C2DFFF;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+ .bio img{
+  border-radius: 25px;
+
+  width: 30%;
+	height: 40%;
+
+}
+
+body{
+	background: #F1C2B7;
+}
+div{
+	padding: 5px;
+}
+
+@media screen and (max-width: 1024px){
+
+.main{
+	background-color: #F5F39E;
+
+}
+	.left{
+		width: 100%;
+		display: flex;
+		font-size: 20px;
+}
+
+.bio{
+	width:50%;
+}
+.sidemenu{
+	width:50%;
+	margin-top: 2em;
+}
+.right{
+	width:100%;
+	margin-top: 20px;
+}
+
+}
+
+
+ /*index*/
+
+  .h1,.mainDiv,.childDiv,.img{
+  border-radius: 25px;
+}
+.h1{
+  text-align: center;
+  background-color: Lightgray;
+  font-size: 40px;
+}
+.mainDiv {
+   box-shadow: 0 4px 8px 0 #00008B;
+   padding: 40px;
+   border:1px solid yellow;
+   background-color: #CAF3F4;
+   display: flex;
+
+    justify-content: space-around;
+
+}
+
+.childDiv{
+  box-shadow: 0 4px 8px 	lightyellow;
+  border: 1px solid #FFD700;
+	background-color: #CAF3F4;
+}
+.childDiv : hover {
+    box-shadow: 0 8px 16px 	lightyellow;
+}
+
+.container {
+    padding: 2px 6px;
+}
+
+@media screen and (min-width: 760px){
+  .mainDiv,.left,  .right {
+        background-color: #EDF7D3;
+
+    }
+}
+@media screen and (max-width: 760px){
+	 .mainDiv{
+		 flex-wrap: wrap;
+
+	 }
+  .childDiv {
+        background-color: #EDF7D3;
+        margin-top: 20px;
+		display: flex;
+
+    }
+    .main{
+    	width: 100%;
+    }
+    .left{
+    	width: 100%;
+    	display:flex;
+    	font-family: Verdana;
+
+    }
+    .sidemenu{
+    	flex-wrap:wrap;
+    	margin-top: 0%;
+    }
+    .bio img{
+    	height: 30%;
+    }
+    .right{
+    	width: 100%;
+    	font-family: Verdana;
+    }
+
+   }
+
+
+ .img img{
+  border-radius: 25px;
+  height: auto;
+  width: 100%;
+}
+body{
+  background-color: #99C68E;
+}
+.button input{
+  border-radius: 100px;
+  float: right;
+
+}
+button{
+	background-color: #FFFFFF;
+	color: #000000;
+  font-weight: bold;
+	width:100%;
+	border-radius:10px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+
+}
